@@ -4,7 +4,7 @@
 
 .atf_Section {
     min-height: 100vh;
-    background: url('../images/atf-bg.png') center / cover no-repeat;
+    background: url('../images/atf-img.png') center / cover no-repeat;
     padding: 0 20px;
     text-align: center;
 }
@@ -75,6 +75,12 @@
     padding: 14px 0;
     display: flex;
     justify-content: center;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) -3%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(255, 255, 255, 0) 103%
+    );
 }
 
 .option_blck {
