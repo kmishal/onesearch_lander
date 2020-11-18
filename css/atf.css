@@ -90,6 +90,9 @@
 
 .op_text {
     padding-left: 11px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a8fff;
 }
 
 .option_blck svg {
