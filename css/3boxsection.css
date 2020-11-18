@@ -1,0 +1,133 @@
+.wrp_blck {
+    max-width: 1196px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* box class */
+
+.box3_section {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background: #f0f7fc;
+    padding-bottom: 94px;
+}
+
+.box3_wrap {
+    display: flex;
+}
+
+.box3_blck-card {
+    max-width: 372px;
+    width: 100%;
+    min-height: 440px;
+    padding: 0 25px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #dee6ee;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: -28px;
+}
+
+.box3_blck-card:last-child {
+    margin-right: 0px;
+}
+
+.box3_icon {
+    margin-top: -18px;
+}
+
+.box3_icon svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.box3_head {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.25;
+    text-align: center;
+    color: #02478a;
+    margin-top: 10px;
+}
+
+.box3_para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+    text-align: center;
+    color: #475767;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.box3_btn {
+    max-width: 332px;
+    width: 100%;
+    min-height: 70px;
+    border-radius: 4px;
+    background: #1a8fff;
+    transition: 0.3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.box3_btn:hover {
+    background-color: #02478a;
+    transition: 0.3s ease-in;
+}
+
+.box3_btn-text {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 42px;
+}
+
+.box3_btn-arrw svg {
+    display: block;
+}
+
+@media screen and (max-width: 980px) {
+    .box3_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box3_blck-card {
+        margin-top: 40px;
+        margin-right: 0;
+    }
+
+    .box3_blck-card:first-child {
+        margin-top: -28px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .box3_head {
+        font-size: 20px;
+    }
+
+    .box3_para {
+        font-size: 16px;
+    }
+
+    .box3_btn {
+        max-width: 320px;
+        min-height: 60px;
+    }
+
+    .box3_btn-text {
+        font-size: 22px;
+        margin-right: 20px;
+    }
+}
