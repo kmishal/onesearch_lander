@@ -1,0 +1,120 @@
+body {
+    font-family: "roboto";
+}
+.wrp_blck{
+    max-width: 1196px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.privacy_focus-feature  {
+    background: #ffffff;
+}
+.h_two {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    color: #02478a;
+    padding:60px 0 50px;
+}
+.privacy_feature-ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 147px;
+}
+
+.privacy_feature-ul li {
+    width: 148px;
+    text-align:center;
+    margin-right: 10px;
+}
+.privacy_feature-ul li:last-child {
+    margin-right: 0px;
+}
+.img_subTxt {
+    width: 148px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #475767;
+}
+.svg_blck svg {
+    width: 86px;
+    height: 86px;
+}
+
+/* footer sectn */
+.footer_blck {
+    background-color: #334250;
+    padding:25px 0;
+}
+.footer_blck_pages {
+    padding-top:23px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.disclaimr_footer {
+    max-width: 733px;
+    margin:0 auto;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #b3bdc7;
+    line-height: 1.3;
+}
+.footer_blck_pages li {
+    padding-right: 20px;
+}
+.footer_blck_pages li:last-child {
+    padding-right: 0px;
+}
+.footer_blck_pages li a {
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer_blck_pages li a:hover {
+    text-decoration: underline;
+}
+/* footer sectn END */
+
+@media only screen and (max-width:1024px) {
+    .privacy_feature-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .privacy_feature-ul li {
+        margin-right: 0px;
+        margin-bottom: 22px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .h_two {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width:480px) {
+    .h_two {
+        font-size: 20px;
+    }
+    .img_subTxt {
+        font-size: 15px;
+    }
+    .svg_blck svg {
+        width: 60px;
+        height: 60px;
+    }
+    .footer_blck_pages {
+        flex-direction: column;
+    align-items: center;
+    }
+    .footer_blck_pages li {
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+}
