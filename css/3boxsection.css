@@ -96,7 +96,7 @@
     display: block;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
     .box3_wrap {
         flex-direction: column;
         align-items: center;
